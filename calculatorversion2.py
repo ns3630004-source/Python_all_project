@@ -10,9 +10,7 @@ while True:
         number1=int(input("enter your first number: "))
 
         number2=int(input("enter your second number :"))
-    else:
-        print("thanks for using sir/madam :")
-        break
+    
 
 
     match choice:
@@ -40,6 +38,13 @@ while True:
         case "%" :
 
             print(number1%number2)
+
+
+        case "exit":
+
+            if choice=="exit":
+                print("thanks for using this project sir/madam")
+                break
 
         case _ :
 
