@@ -8,7 +8,7 @@ while True:
 
     choice=input("enter your operator given below")
 
-    if choice in ["+","-","*","**","%","/","//","exit"]:
+    if choice in ["+","-","*","**","%","/","//"]:
 
         num1=int(input("enter your first number: "))
 
