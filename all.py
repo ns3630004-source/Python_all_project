@@ -127,14 +127,14 @@ def decending():
 def insert():
 
 
-    num=int(input("enter your index number: "))
-    fruit=input("enter your new fruit name: ")
+     num=int(input("enter your index number: "))
+     fruit=input("enter your new fruit name: ")
 
-    my_list.insert(num,fruit)
+     my_list.insert(num,fruit)
 
-    print(my_list)
+     print(my_list)
 
-    print(line*60)
+     print(line*60)
     
 
 #------------------------------------------------- 
