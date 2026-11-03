@@ -126,9 +126,9 @@ def decending():
 
 def insert():
 
-    fruit=input("enter your new fruit name adding any index: ")
 
-    num=int(input("enter your index number to add fruit: "))
+    num=int(input("enter your index number: "))
+    fruit=input("enter your new fruit name: ")
 
     my_list.insert(num,fruit)
 
@@ -217,7 +217,7 @@ my_dict={
 
 }
 
-def insert():
+def insertdictionar():
 
     num=int(input("enter your number to stop loop."))
 
@@ -349,6 +349,10 @@ print(line*60)
 
 #-------------------------------------------------
 
+print("18 for check for values in dictionary.")
+print(line*60)
+
+#-------------------------------------------------
 
 # fundtionc calling .
 
@@ -431,6 +435,9 @@ while True:
 
 
         value()
+
+    case 18:
+          insertdictionar()
 
     case _ :
 
